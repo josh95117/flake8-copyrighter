@@ -18,6 +18,7 @@ r'\d{4}'  # 4-digit years
 &nbsp;
 
 The following table shows some example strings and the year that would be identified with the default settings:
+
 | Copyright string                         | Year | Notes                                           |
 |------------------------------------------|------|-------------------------------------------------|
 | Copyright © 2012 BigCo, Inc.             | 2012 |                                                 |
@@ -32,6 +33,7 @@ Checker results
 ---------------
 
 `flake8-copyrighter` uses the following message codes to report problems found:
+
 | Code    | Message                                                  |
 |---------|----------------------------------------------------------|
 | CRC0000 | Copyright string does not contain file modification year |
